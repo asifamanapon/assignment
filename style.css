@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing:border-box;
+}
+.hero{
+    width:100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5), url(photo/donation4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.title{
+    padding: 10%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+#header{
+    color:orange;
+    font-size: 110px;
+}
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    position: relative;
+ 
+}
+.button::after {
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    transition: 0.5s;
+}
+.button:hover::after{
+    width:100%;
+}
+
+.normal{
+    margin-top: 60px;
+   
+    margin-right: 4px;
+    text-align: center;
+    padding: 2px;
+}
+
+
+.box-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        color:#ff3d00;
+        justify-content: center;
+
+    }
+.box{
+    width:80px;
+    height:80px;
+    background:rgba(255, 61, 0, 0.15);
+    margin: 0 10px;
+
+}
+.content{
+background: white;
+padding:10px;
+border-radius: 8px;
+display: flex;
+}
+.content form input{
+    flex: 1;
+    border: orange, 10%;
+    padding: 0 20px;
+    font-size: 18px;
+   
+}
+.content h1{
+    margin-right: 10px;
+
+}
+.content form button{
+    background-image: linear-gradient(orange, tomato);
+    padding: 6px 20px 2px;
+    border:10px;
+    border-radius: 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    
+}
+#exception{
+    color:blue
+}
