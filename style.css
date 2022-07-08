@@ -107,5 +107,133 @@ display: flex;
 }
 #exception{
    background-color:blue;
+
+
    
+}
+.back-video{
+    position:butt;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    display:flex; 
+    justify-content: space-between;
+    align-items: center;
+    color:#ffffff;
+
+}
+@media(min-aspect-ratio:16/9){
+    .back-video{
+        width:100%;
+        height:auto;
+    }
+}
+@media(max-aspect-ratio:16/9) {
+    .back-video {
+        width: auto;
+        height: 100%;
+    }
+}
+.header{
+    
+    
+}
+#text1{
+    color:#ffffff;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.748), rgb(255, 0, 0));
+}
+#button2{
+    margin: 2 10px;
+        font-size: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+}
+
+
+.whole-container {
+    display: flex;
+    padding: 5px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.container-two {
+    margin-top: 80px;
+    display: flex;
+    margin-bottom: 100px;
+    font-size: larger;
+    font-weight: 400;
+    text-align: left;
+   
+    padding-right: 50px;
+}
+#text-insert{
+    border-bottom: #3551b5;
+}
+.container-body2{
+    margin-top: -100px;
+    margin-right:10px;
+    margin-left: -10px;
+}
+
+.whole2{
+    display: flex;
+    margin-left: 90px;
+    margin-bottom: 100px;
+    font-size: large;
+    font-weight: 400;
+    text-align: left;
+    
+}
+.data{
+    font-size: large;
+    text-align: left;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 25px;
+}
+.data2{
+    font-size: large;
+    text-align: left;
+    width: 80%;
+    margin-left: 5%;
+    margin-right: 15%;
+    padding: 0px;
+}
+   
+#box-one {
+    background-color: rgb(253, 9, 46);
+}
+
+#box-two {
+    background-color: rgb(255, 142, 4);
+}
+
+#box-three {
+    margin-top: 20px;
+    background-color: rgb(10, 54, 250);
+}
+.donation-boxes{
+    display: inline-block;
+    margin-bottom: 40px;
+    text-align: justify;
+    font-size: medium;
+    width: 30%;
+    margin-left: 1%;
+    margin-right: 2%;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 40px;
+    box-shadow: 10px 10px 40px darkgrey;
 }
