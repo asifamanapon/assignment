@@ -59,15 +59,24 @@
         align-items: center;
         justify-content: center;
         margin-top: 40px;
-        color:#ff3d00;
-        justify-content: center;
+        color:#ffffff;
+        
+       
 
     }
 .box{
     width:80px;
     height:80px;
-    background:rgba(255, 61, 0, 0.15);
+    background:rgb(255, 0, 0);
     margin: 0 10px;
+    font-size:12px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 50px gray;
+    cursor: pointer;
+    
 
 }
 .content{
@@ -97,5 +106,6 @@ display: flex;
     
 }
 #exception{
-    color:blue
+   background-color:blue;
+   
 }
