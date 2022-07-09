@@ -237,3 +237,39 @@ display: flex;
     padding: 40px;
     box-shadow: 10px 10px 40px darkgrey;
 }
+.bg01{
+    text-align: center;
+
+}
+.box-bottom {
+    font-size: medium;
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 31%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+    background-image: linear-gradient(black, blue);
+    border-radius: 10px;
+    padding: 65px;
+    box-shadow: 3px 3px rgb(87, 82, 83), -0.5em 0 .4em;
+}
+#last-era {
+    font-size: small;
+    color: grey;
+}
+.footer-on {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 2%;
+}
+.text-footer {
+    font-size: x-large;
+    margin-top: 0;
+}
+
+.text-footer-bottom{
+    font-size: small;
+    font-weight: 100;
+}
+
