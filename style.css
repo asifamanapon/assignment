@@ -178,7 +178,9 @@ display: flex;
     padding-right: 50px;
 }
 #text-insert{
-    border-bottom: #3551b5;
+  
+    margin-left: 43%;
+    margin-top: 6%;
 }
 .container-body2{
     margin-top: -100px;
@@ -273,3 +275,10 @@ display: flex;
     font-weight: 100;
 }
 
+.tk{
+    margin-left: 41%;
+}
+.nonstop{
+    margin:1%;
+    margin-left: 44%;
+}
